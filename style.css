@@ -2,6 +2,7 @@ body {
 font-family: 'Roboto', sans-serif   ;
 display: flex;
 flex-direction: column;
+margin: 0;
 
 }
 
@@ -86,9 +87,31 @@ ul {
 .RandoInfo {
 font-size: 36px;
 font-weight: 800;
+display: flex;
+justify-content: center;
+padding: 30px;
 }
 
 .BelowBelowTop{
     display: flex;
     flex-direction: column;
+}
+
+.ImageGrid{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ImageText1, .ImageText2, .ImageText3, .ImageText4 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 150px;
+    text-align: center;
+}
+
+.Image1, .Image2, .Image3, .Image4{
+    height: 150px;
+    width: auto;
+    border-radius: 8px;
+    border: 3px Solid #3882F6;
 }
