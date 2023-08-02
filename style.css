@@ -1,0 +1,82 @@
+body {
+font-family: 'Roboto', sans-serif   ;
+display: flex;
+flex-direction: column;
+
+}
+
+h1{
+    font-size: 24px;
+    width: 344.45px;
+}
+
+h2{
+    font-size: 48px;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+}
+.Awesome{
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+}
+
+.SignUpBar{
+    padding: 1
+}
+.TopBar{
+  display: flex;
+  justify-content: space-around;
+;  
+}
+
+.BelowTop{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px
+    
+}
+
+
+ul {
+    display: flex;
+    list-style-type: none;
+    
+    padding: 0;
+    gap: 32px;
+}
+
+.FirstTwo {
+    
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.Content{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    padding-bottom: 12px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.MonkeyPicture{
+    display:flex;
+    width: auto; 
+    height: 220px;
+    Margin-bottom: 80px;
+}
+
+.FirstButton{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
