@@ -115,3 +115,38 @@ padding: 30px;
     border-radius: 8px;
     border: 3px Solid #3882F6;
 }
+
+.QuoteContainer{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px;
+    margin-top: 20px;
+}
+.Quote{
+    font-size: 36px;
+    text-align: center;
+}
+.Quoted{
+display: flex;
+justify-content: center;
+margin-left: 290px;
+}
+
+.Modal{
+    background-color: #3882F6;
+    color:#F9FAF8;
+    margin: 100px;
+    border-radius: 8px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.SecondButton{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 8px;
+    border: #F9FAF8 Solid 3px;
+}
