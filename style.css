@@ -7,19 +7,20 @@ flex-direction: column;
 
 h1{
     font-size: 24px;
-    width: 344.45px;
+    width: 494.45px;
+}
+h2{
+    margin: 0;
 }
 
-h2{
+.Awesome{
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
     font-size: 48px;
     font-weight: 800;
     margin: 0;
     padding: 0;
-}
-.Awesome{
-    display: flex;
-    flex-wrap: wrap;
-    width: 350px;
 }
 
 .SignUpBar{
@@ -60,10 +61,11 @@ ul {
 .Content{
     display: flex;
     flex-wrap: wrap;
-    width: 300px;
+    width: 500px;
     padding-bottom: 12px;
     font-size: 18px;
     color: #E5E7EB;
+    margin: 0;
 }
 
 .MonkeyPicture{
@@ -79,4 +81,14 @@ ul {
     border: none;
     padding: 8px 16px;
     border-radius: 8px;
+}
+
+.RandoInfo {
+font-size: 36px;
+font-weight: 800;
+}
+
+.BelowBelowTop{
+    display: flex;
+    flex-direction: column;
 }
